@@ -1,0 +1,51 @@
+.landing-page {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #FF6EC7;
+}
+
+.auth-message {
+  margin: 40px 0;
+  font-size: 18px;
+  color: #00FFFF;
+}
+
+.topics-section {
+  margin-top: 60px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #00FFFF;
+}
+
+.topics-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.topic-item {
+  background-color: #000066;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #00FFFF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+.topic-item:hover {
+  background-color: #000099;
+  transform: scale(1.02);
+}
+
+.topic-item.disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

@@ -1,0 +1,50 @@
+.auth-container {
+  padding: 10px;
+  text-align: right;
+  background-color: rgba(0, 0, 102, 0.8);
+  border-bottom: 2px solid #00FFFF;
+}
+
+.auth-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  transition: all 0.3s ease;
+}
+
+.auth-button:hover {
+  transform: scale(1.05);
+}
+
+.login {
+  background-color: #FF6EC7;
+  color: #000033;
+}
+
+.logout {
+  background-color: #000066;
+  color: #00FFFF;
+  border: 1px solid #00FFFF;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: flex-end;
+}
+
+.user-info span {
+  color: #00FFFF;
+  font-size: 12px;
+}
+
+.profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #00FFFF;
+}
